@@ -15,7 +15,7 @@ The Interactive Travel Planner is a web-based application that helps users searc
 ## Running the Application Locally
 
 1. Clone the repository.
-2. Open `index.html` in a browser.
+2. Open `index.html` in a browser or use **https://www.ibragold.tech**.
 3. Ensure you have an active internet connection to fetch API data.
 
 ## Deployment Instructions
