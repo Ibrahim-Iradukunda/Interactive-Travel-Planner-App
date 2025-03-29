@@ -1,0 +1,72 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #004a99;
+    color: white;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #004a99;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  button {
+    background-color: #004a99;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #003b7a;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #weather-results, #attractions-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(33.33% - 10px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .footer {
+    text-align: center;
+    padding: px;
+    background-color: #003b7a;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

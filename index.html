@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Travel Planner</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8y2R7yJmlG8BcwZ8XeYj1YioavB-oeqKv-g&s"
+      alt="Weather Image"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Interactive Travel Planner</h1>
+      <p>Plan your trips with ease and explore the world!</p>
+    </header>
+    <main>
+      <!-- Search Section -->
+      <section id="search-section">
+        <h2>Search for a Destination</h2>
+        <input
+          type="text"
+          id="destination-input"
+          placeholder="Enter a city or destination..."
+        />
+        <button id="search-btn">Search</button>
+      </section>
+
+      <!-- Weather Section -->
+      <section id="weather-section" class="hidden">
+        <h2>Weather Forecast</h2>
+        <div id="weather-results"></div>
+      </section>
+
+      <!-- Attractions Section -->
+      <section id="attractions-section" class="hidden">
+        <h2>Top Attractions</h2>
+        <div id="attractions-results"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2025 Interactive Travel Planner. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
